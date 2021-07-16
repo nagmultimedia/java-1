@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JInternalFrameFormInfo">
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel3" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel3" max="32767" attributes="0"/>
+              <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel3">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="cmbFiltroMisCursos" min="-2" pref="160" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="txtValorBusquedaMisCursos" min="-2" pref="216" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                  <Component id="btnBuscarfrmMisCursos" min="-2" pref="94" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                  <Component id="jButton1" min="-2" pref="151" max="-2" attributes="0"/>
+                  <EmptySpace pref="54" max="32767" attributes="0"/>
+              </Group>
+              <Group type="102" attributes="0">
+                  <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                  <Component id="jScrollPane3" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="cmbFiltroMisCursos" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtValorBusquedaMisCursos" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnBuscarfrmMisCursos" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                  <Component id="jScrollPane3" pref="538" max="32767" attributes="0"/>
+                  <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JTextField" name="txtValorBusquedaMisCursos">
+        </Component>
+        <Component class="javax.swing.JButton" name="btnBuscarfrmMisCursos">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Buscar"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnBuscarfrmMisCursosActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Buscar por"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="cmbFiltroMisCursos">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="2">
+                <StringItem index="0" value="DNI"/>
+                <StringItem index="1" value="Area"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cmbFiltroMisCursosActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="tblMisCursos">
+              <Properties>
+                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                  <Table columnCount="27" rowCount="0">
+                    <Column editable="true" title="id_usuarios" type="java.lang.Object"/>
+                    <Column editable="true" title="DNI" type="java.lang.Object"/>
+                    <Column editable="true" title="Area" type="java.lang.Object"/>
+                    <Column editable="true" title="El_rol_del_Educador_Scout " type="java.lang.Object"/>
+                    <Column editable="true" title="Conociendo_el_movimiento_Scout " type="java.lang.Object"/>
+                    <Column editable="true" title="Las_obligaciones_Institucionales " type="java.lang.Object"/>
+                    <Column editable="true" title="El_Educador_y_su_Fe_1 " type="java.lang.Object"/>
+                    <Column editable="true" title="Supervisi&#xf3;n_(Supervisado) " type="java.lang.Object"/>
+                    <Column editable="true" title="Educaci&#xf3;n_en_la_Fe " type="java.lang.Object"/>
+                    <Column editable="true" title="Planificando_el_Programa_1 " type="java.lang.Object"/>
+                    <Column editable="true" title="Animando_el_programa_1 " type="java.lang.Object"/>
+                    <Column editable="true" title="La_gesti&#xf3;n_institucional " type="java.lang.Object"/>
+                    <Column editable="true" title="Supervisi&#xf3;n_2_(Supervisor)" type="java.lang.Object"/>
+                    <Column editable="true" title="Promoci&#xf3;n_comunitaria_y_alianzas_estrat&#xe9;gicas " type="java.lang.Object"/>
+                    <Column editable="true" title="El_Educador_y_su_Fe_2 " type="java.lang.Object"/>
+                    <Column editable="true" title="Planificando_el_Programa_2 " type="java.lang.Object"/>
+                    <Column editable="true" title="Animando_el_programa_2 " type="java.lang.Object"/>
+                    <Column editable="true" title="Planificaci&#xf3;n_y_conducci&#xf3;n_de_actividades_al_aire_libre_jovenes " type="java.lang.Object"/>
+                    <Column editable="true" title="Herramientas_para_la_Gesti&#xf3;n " type="java.lang.Object"/>
+                    <Column editable="true" title="Administraci&#xf3;n_general " type="java.lang.Object"/>
+                    <Column editable="true" title="Planificaci&#xf3;n_y_conducci&#xf3;n_de_actividades_al_aire_libre_Gestion " type="java.lang.Object"/>
+                    <Column editable="true" title="Desarrollo_de_habilidades_de_liderazgo " type="java.lang.Object"/>
+                    <Column editable="true" title="Planificaci&#xf3;n " type="java.lang.Object"/>
+                    <Column editable="true" title="El_Educador_y_su_Fe_3 " type="java.lang.Object"/>
+                    <Column editable="true" title="Recursos_Educativos " type="java.lang.Object"/>
+                    <Column editable="true" title="La_gesti&#xf3;n_de_SAAC " type="java.lang.Object"/>
+                    <Column editable="true" title="Captaci&#xf3;n_en_SAAC " type="java.lang.Object"/>
+                  </Table>
+                </Property>
+                <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                  <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="tblMisCursosMouseClicked"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JButton" name="jButton1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Ver mis cursos"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
